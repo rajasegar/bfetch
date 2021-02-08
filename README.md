@@ -1,15 +1,20 @@
-# my-awesome-cli
+# bfetch
 
-Description about my-awesome-cli
+The famous screenfetch program in Javascript using blessed.js
 
 ## Install
 
 ```
-npm install -g my-awesome-cli
+npm install -g bfetch
 ```
 
 ## Usage
 
 ```
-my-awesome-cli
+bfetch
 ```
+
+## FAQs
+
+1. How do I exit the bfetch screen?
+Press `q` to exit.

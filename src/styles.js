@@ -24,7 +24,7 @@ module.exports = function (colors) {
     },
     box: {
       border: {
-        type: 'line',
+        type: 'bg',
         fg: foreground,
         bg: background,
       },
@@ -91,30 +91,30 @@ module.exports = function (colors) {
         item: {
           bg: red,
           hover: {
-            bg: blue
+            bg: blue,
           },
         },
         selected: {
-          bg: blue
-        }
+          bg: blue,
+        },
       },
     },
     listtable: {
-    style: {
-      border: {
-        fg: red
+      style: {
+        border: {
+          fg: red,
+        },
+        header: {
+          fg: blue,
+          bold: true,
+        },
+        cell: {
+          fg: magenta,
+          selected: {
+            bg: blue,
+          },
+        },
       },
-      header: {
-        fg: blue,
-        bold: true
-      },
-      cell: {
-        fg: magenta,
-        selected: {
-          bg: blue
-        }
-      }
-    }
     },
   };
 };
