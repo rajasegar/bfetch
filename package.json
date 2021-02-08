@@ -1,0 +1,42 @@
+{
+  "name": "my-awesome-cli",
+  "version": "1.0.0",
+  "description": "An awesome CLI created with blessed.js",
+  "main": "src/index.js",
+  "bin": {
+    "cli": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "debug": "node --inspect-brk ./bin/cli.js",
+    "deploy": "git push && git push --tags && npm publish",
+    "start": "./bin/cli.js"
+  },
+  "keywords": [
+    "cli",
+    "blessed"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@blessed/blessed-contrib": "^1.0.1",
+    "@blessed/neo-blessed": "^1.0.0",
+    "@blessed/themes": "^1.0.0",
+    "minimist": "^1.2.5",
+    "module-alias": "^2.2.2",
+    "systeminformation": "^5.0.11"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "utils": "src/utils",
+    "widgets": "src/widgets",
+    "pages": "src/pages"
+  },
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5"
+  }
+}
