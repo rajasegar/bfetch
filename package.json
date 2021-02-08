@@ -22,6 +22,7 @@
     "@blessed/blessed-contrib": "^1.0.1",
     "@blessed/neo-blessed": "^1.0.0",
     "@blessed/themes": "^1.0.0",
+    "filesize": "^6.1.0",
     "minimist": "^1.2.5",
     "module-alias": "^2.2.2",
     "systeminformation": "^5.0.11"
